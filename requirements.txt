@@ -1,0 +1,2 @@
+django
+nepali>=1.0.0
