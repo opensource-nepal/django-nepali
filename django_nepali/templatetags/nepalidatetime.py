@@ -4,9 +4,11 @@ from typing import Optional, Union
 from django import template
 from django.utils import timezone
 
-from nepali.datetime import nepalidate as _nepalidate
-from nepali.datetime import nepalidatetime as _nepalidatetime
-from nepali.datetime import nepalihumanize as humanize
+from nepali.datetime import (
+    nepalidate as _nepalidate,
+    nepalidatetime as _nepalidatetime,
+    nepalihumanize as humanize
+)
 from nepali.exceptions import InvalidNepaliDateTimeObjectException
 from nepali.utils import to_nepalidatetime
 
