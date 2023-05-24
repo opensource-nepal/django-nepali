@@ -1,6 +1,6 @@
 # django-nepali
 
-A django package on top of 'nepali' a python package which supports nepali date time, time conversion, etc on django projects.
+A django package on top of [nepali](https://github.com/opensource-nepal/py-nepali/) python package which supports nepali date time, time conversion, etc on django projects.
 
 ## Requirements
 
