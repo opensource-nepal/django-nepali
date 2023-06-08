@@ -58,7 +58,7 @@ def nepalidate_en(
         nepali_datetime_obj = to_nepalidatetime(datetime_obj)
         return nepali_datetime_obj.strftime_en(format)
     except InvalidNepaliDateTimeObjectException:
-        return None
+        return ""
 
 
 @register.filter(name="nepalidate_ne")
@@ -82,7 +82,7 @@ def nepalidate_ne(
         nepali_datetime_obj = to_nepalidatetime(datetime_obj)
         return nepali_datetime_obj.strftime_ne(format)
     except InvalidNepaliDateTimeObjectException:
-        return None
+        return ""
 
 
 @register.filter(name="nepalihumanize")
@@ -109,7 +109,7 @@ def nepalihumanize(
         nepali_datetime_obj = to_nepalidatetime(datetime_obj)
         return humanize(nepali_datetime_obj, threshold=threshold, format=format)
     except InvalidNepaliDateTimeObjectException:
-        return None
+        return ""
 
 
 @register.simple_tag

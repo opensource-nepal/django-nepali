@@ -50,7 +50,7 @@ setuptools.setup(
         "parse nepali date time",
     ],
     url="https://github.com/opensource-nepal/django-nepali",
-    packages=setuptools.find_packages(exclude=['tests*']),
+    packages=setuptools.find_packages(exclude=["django_nepali_example"]),
     install_requires=[
         'django',
         'nepali>=1.0.0',
