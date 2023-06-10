@@ -5,7 +5,7 @@ name: Python Package
 
 on:
   push:
-    branches: ["2-implement-django-tests-and-setup-github-actions"]
+    branches: ["main"]
   pull_request:
 
 jobs:
