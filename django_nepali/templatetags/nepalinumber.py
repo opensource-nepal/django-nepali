@@ -48,7 +48,8 @@ def nepalinumber_with_comma(value: Any) -> str:
 @register.filter(name="nepali_comma")
 def nepali_comma(value: Any) -> str:
     """
-    Renders the given value with commas added in Nepali style without converting the number.
+    Renders the given value with commas added in Nepali style
+    without converting the number.
 
     Usage:
     ```
@@ -64,7 +65,8 @@ def nepali_comma(value: Any) -> str:
 @register.filter(name="english_comma")
 def english_comma(value: Any) -> str:
     """
-    Renders the given value with commas added in English style without converting the number.
+    Renders the given value with commas added in English style
+    without converting the number.
 
     Usage:
     ```

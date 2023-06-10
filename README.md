@@ -1,5 +1,9 @@
 # django-nepali
 
+[![CI status](https://github.com/opensource-nepal/django-nepali/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/opensource-nepal/django-nepali/actions)
+[![Downloads](https://img.shields.io/pypi/dm/nepali.svg?maxAge=180)](https://pypi.org/project/django-nepali/)
+[![codecov](https://codecov.io/gh/opensource-nepal/django-nepali/branch/main/graph/badge.svg?token=PTUHYWCJ4I)](https://codecov.io/gh/opensource-nepal/django-nepali)
+
 A django package on top of [nepali](https://github.com/opensource-nepal/py-nepali/) python package which supports nepali date time, time conversion, etc on django projects.
 
 ## Requirements
