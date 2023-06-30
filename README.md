@@ -162,3 +162,7 @@ Converts the number into nepali number and renders it. Basically same as `{{ num
 ```
 
 This would convert a number such as `1000` into `१,०००`.
+
+## Contribution
+
+We appreciate feedback and contribution to this package. To get started please see our [contribution guide](CONTRIBUTION.md)
