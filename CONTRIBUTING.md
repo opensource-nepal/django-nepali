@@ -7,7 +7,7 @@ All the dependencies are managed by Pipenv. Please install Pipenv on your system
 Once Pipenv is installed, you can install the development dependencies by running the following command:
 
 ```bash
-pipenv install --dev
+make install-dev
 ```
 
 This will ensure that all the necessary packages and dependencies are installed in your development environment.

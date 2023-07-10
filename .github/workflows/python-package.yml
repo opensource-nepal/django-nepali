@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install flake8
-          pipenv install --dev
+          make install-dev
 
       - name: Lint with flake8
         run: |
@@ -42,9 +42,9 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --ignore=E203,W503 --max-line-length=127 --statistics
           # For the reason behind ignoring E203 and W503, visit https://blackq.readthedocs.io/en/stable/faq.html#why-are-flake8-s-e203-and-w503-violated
 
-      - name: Run tests
+      - name: Run test and coverage
         run: |
-          pipenv run pytest --cov=django_nepali/ --no-cov-on-fail
+          make coverage
 
       - name: Generate coverage report
         run: |
