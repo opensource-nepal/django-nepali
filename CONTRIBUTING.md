@@ -14,7 +14,7 @@ This will ensure that all the necessary packages and dependencies are installed 
 
 ## Codestyle
 
-A [.editorconfig](./editorconfig) is available to maintain the coding style. Besides, your code will automatically gets formatted if you have install the pre-commit hook.
+A [.editorconfig](./editorconfig) is available to maintain the coding style. Besides, your code will automatically get formatted if you have installed the pre-commit hook.
 
 ## Unit tests
 

@@ -2,7 +2,7 @@
 # django-nepali
 #
 # @file
-# @version 0.1
+# @version 0.2
 
 install:
 	pipenv install
@@ -19,10 +19,5 @@ coverage:
 coverage-html:
 	pipenv run pytest --cov=django_nepali/ --cov-report=html --no-cov-on-fail
 
-open-coverage-html-mac: coverage-html
-	open htmlcov/index.html
-
-open-coverage-html-linux: coverage-html
-	xdg-open htmlcov/index.html
-
+.PHONY: install install-dev test coverage coverage-html
 # end
