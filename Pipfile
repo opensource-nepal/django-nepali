@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Django = "*"
+nepali = ">=1.0.0"
+
+[dev-packages]
+black = ">=22.1.0"
+flake8 = "*"
+isort = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
